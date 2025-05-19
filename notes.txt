@@ -1,0 +1,17 @@
+Notes - Windows Server & AD Lab
+
+🛠️ Configuration Summary:
+Domain: corp.local
+Server Name: SRV-DC01
+Static IP: 192.168.100.10
+AD User Created: rithesh.reddy
+Organizational Unit: IT_Dept
+
+✅ Issues Faced & Fixes:
+ Login failure with domain user on server: Fixed by adding 'Domain Users' to "Allow log on locally" in Local Security Policy.
+Easy Install initially booted Server Core: Fixed by restarting install with manual ISO setup.
+
+📚 Learning Outcome:
+Gained hands-on experience installing AD DS
+Understood how to promote a server to a domain controller
+ Practiced user and OU management in Active Directory
