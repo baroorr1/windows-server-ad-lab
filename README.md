@@ -33,16 +33,49 @@ A VMware-based lab environment using Windows Server 2019 to simulate a Domain Co
 
 ## 📸 Screenshots
 
-Visuals of the entire setup are included in this repo.
+### 🔹 1. Server Desktop After First Login
+![Server Desktop](./server-desktop.png)
+
+---
+
+### 🔹 2. Renaming Server to SRV-DC01
+![Rename Server](./rename-srv-dc01.png)
+
+---
+
+### 🔹 3. Static IP Configuration
+![Static IP Settings](./static-ip-settings.png)
+
+---
+
+### 🔹 4. Active Directory Domain Services Installed
+![AD DS Installed](./ad-ds-installed.png)
+
+---
+
+### 🔹 5. Domain Promotion to `corp.local`
+![Domain Promotion](./domain-promotion-corp-local.png)
+
+---
+
+### 🔹 6. OU & User Created in ADUC
+![AD Users and OU](./ad-users-ou.png)
+
+---
+
+## 📄 Configuration Files
+
+- [`ipconfig.txt`](./ipconfig.txt): IP setup details
+- [`notes.txt`](./notes.txt): Setup notes & issues resolved
 
 ---
 
 ## 📚 Learning Outcomes
 
-- Installed and configured Active Directory Domain Services
-- Promoted a server to a Domain Controller
-- Managed domain users and Organizational Units
-- Set up static IP configuration for network reliability
+- Installed and configured AD DS
+- Promoted the server to a domain controller
+- Managed domain users and OUs
+- Practiced static IP and DNS configuration in an enterprise-style setup
 
 ---
 
