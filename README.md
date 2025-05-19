@@ -15,7 +15,15 @@ A VMware-based lab environment using Windows Server 2019 to simulate a domain co
 - Screenshots included
 
 ## 📸 Screenshots
-See `/screenshots/` folder
+
+### 🔹 Windows Server Desktop
+![Server Desktop](./screenshots/server-desktop.png)
+
+### 🔹 Static IP Configuration
+![Static IP](./screenshots/static-ip-settings.png)
+
+### 🔹 Active Directory Setup
+![AD DS Installed](./screenshots/ad-ds-installed.png)
 
 ## 📁 Config
 - `/config/ipconfig.txt`: Network config
